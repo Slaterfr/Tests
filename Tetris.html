@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Tetris JS</title>
+    <style>
+        #puntuacion{
+            display: inline-block;
+        }
+        div{
+            font-size: 25px;
+            font-weight: bold;
+            font-family: monospace;
+            text-align: center;
+        }
+        lienzo{
+            display: block;
+            margin:0 auto;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="Tetris" width="200" height="400"></canvas>
+    <div>
+        Puntuación : <div id="puntuacion">0</div>
+    </div>
+    <script src="Tetrominios.js"></script>
+    <script src="Tetris.js"></script>
+</body>
+</html>
